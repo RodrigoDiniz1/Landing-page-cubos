@@ -1,0 +1,48 @@
+* {
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg{
+background-image: url(/image/bg_1.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    padding-inline: 1.25rem;
+    padding-block: 1.5rem ;
+    align-items: center;
+}
+
+.header_logo {
+    display: flex;
+}
+
+.header_logo h2{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header_img_hamb{
+    width: 25px;
+}
