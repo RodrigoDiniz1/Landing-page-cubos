@@ -7,6 +7,7 @@
     margin-inline: auto;
     align-items: center;
     max-height: 100vh;
+    flex-direction: row;
 }
 
 /* .hero_left, .hero_right {

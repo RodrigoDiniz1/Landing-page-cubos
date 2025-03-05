@@ -20,7 +20,7 @@ background-size: cover;
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    max-width: 1280px;
     margin: auto;
     padding-inline: 1.25rem;
     padding-block: 1.5rem ;
@@ -45,7 +45,7 @@ background-size: cover;
 .nav_a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .header_img_hamb{
